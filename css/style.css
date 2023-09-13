@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+}
+
+h1{
+    font-size: 2em;
+}
+
+body{
+    font-family: 'Space Mono', monospace;
+    background: #d2d2d2;
+}
+main{
+    width: 500px;
+    margin: 5em auto;
+    background: #ffffff;
+    border: 1px solid #000000;
+    box-shadow: 5px 10px #888888;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#headerbutton{
+    margin-left: 10px;
+}
+
+input{
+    width: 25em;
+    padding: 7px 4px;
+    border-radius: 10px;
+    margin: 0.5em 0;
+}
+
+.todo-card p{
+    display: inline-block;
+}
+
+.todo-card{
+    padding: 25px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 10px;
+    background-color:#ececec;
+    border: 1px solid #6b6b6b;
+}
+
+button{
+    margin-top: 1em;
+    font-size: 1.3em;
+    border-radius: 10px;
+  }
